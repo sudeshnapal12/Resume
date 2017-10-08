@@ -1,0 +1,183 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{verbatim}  % to use comment line \begin{comment} \end{comment}
+\usepackage[left=0.75in,top=0.3in,right=0.75in,bottom=0.0in]{geometry} % Document margins
+\usepackage{hyperref} % For Hyperlinks
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=cyan,      
+    urlcolor=blue
+}
+\urlstyle{same}
+
+\renewcommand{\baselinestretch}{1.0}
+\name{Sudeshna Pal} % Your name
+\address{700 Health Sciences Drive, Chapin K 1162C, Stony Brook, New York 11790} % Your address
+\address{
++1-6315909104 \\
+\href{mailto:supal@cs.stonybrook.edu}{supal@cs.stonybrook.edu}\\       
+\href{https://www.linkedin.com/in/palsudeshna/}{https://www.linkedin.com/in/palsudeshna/}\\  
+\href{https://github.com/sudeshnapal12}{https://github.com/sudeshnapal12}
+} 
+
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\begin{rSubsection}
+{Stony Brook University $\bullet$ New York, U.S.A.} {\emph{Aug 2016 -- Dec 2017}}
+{Master of Science, Computer Science }
+{CGPA - 3.6/4.0} 
+Courses: Big data Analytics, Introduction to Computer Vision, Machine Learning, Probability \& Statistics, Visualization, Theory of Databases, Analysis of Algorithms.
+\end{rSubsection}
+
+\begin{rSubsection}
+{National Institute of Technology, Jamshedpur $\bullet$ Jamshedpur, India} {\emph{Aug 2008 -- May 2012}}{Bachelor of Technology, Computer Science \& Engineering}
+{CGPA - 9.0/10.0} 
+\item[] 
+%{{Thesis: \href{http://sci-edit.net/journal/index.php/cgt/article/download/40/35}{Fama French Three Factor Model in Indian Stock Market} }}  \\
+%{{Research Publication: \href{http://www.iosrjournals.org/iosr-jbm/papers/vol2-issue1/A0210104.pdf?id=5531}{Analysis of Equity Based Mutual Funds in India} }} \\
+Courses: Programming and Data Structures, Operating Systems, Computer Networks, Software Engineering, Artificial Intelligence \& Neural Networks.
+
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Java, C, Python, Scala.
+\\
+Web Technologies & HTML5, CSS, JavaScript, REST, AngularJS, SQL, D3.
+\\
+Databases & DB2, Oracle Spatial, MySQL, MongoDB, Cassandra.
+\\
+Tools & Android Studio, Eclipse, IntelliJ, Git, LaTex.
+\end{tabular}
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Amazon}{\emph{ May 2017 -- Present}}{Software Development Engineer Intern}{Seattle, WA}
+\item AWS Builder Tools Team -- Implemented Event Notification Service in Amazon's deployment workflow using AWS services such as DynamoDB, SNS and SQS. 
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{British Telecommunications}{\emph{ Nov 2015 -- Aug 2016}}{Research Analyst}{Bangalore, India}
+\item Next Gen Physical Inventory Planning and e-Recording (PiPer) application -- Implemented spatial-editing of telecom inventory in Next Gen PiPer application. The front-end was developed using AngularJS and back-end was developed using Spring and Getafix (BT-library to handle data persistence) for Domain data-type. Also, developed functionality to migrate and convert GIS data from ArcGIS to Oracle Spatial.
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Samsung Research Institute} {\emph{Jun 2012 -- Sept 2015}} {Senior Software Engineer}
+{Bengaluru, India}
+\item Auto-Album in Gallery -- Designed \& implemented k-prototype clustering algorithm to categorically mine and group android gallery images. This is then integrated into data-mining engine of android smartphone. A part of this solution is present in Samsung S7.
+\item Activity Detection -- Analysed different machine learning algorithms to classify sensor data and then, developed android application using Naïve Bayes algorithm to train and detect different activities of android smartphone user.
+\item 3D Reconstruction -- Reduced the number of outliers in 3D mesh by optimizing the SFM pipeline, containing algorithms like bundler, CMVS, PMVS, PoissonReconstruction, Vertex attribute transfer. This is then ported and integrated into Android middleware. A paper of the above was accepted in ISPRS Archives.
+\item Object Recognition -- Designed an algorithm for object recognition in an image using priority based Maximally Stable Extremal Regions (Priority MSER) with optimal matching of pixels between query and trained image.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Indian Institute of Technology} {\emph{May 2011 -- Jul 2011}} {Intern}
+{Bengaluru, India}
+\item Affordable Solutions Lab -- Implemented and enhanced “Proxymity” which is a rich multimedia lecturing tool for distance learning, under the mentorship of PADMA SRI, Prof. Deepak B Phatak, Department of Computer Science \& Engineering. This project was part of the program National Mission on Education.
+
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Projects SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+
+%----------------------------------------------------------------------------------------
+% University Ranking - Visualization
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{University Ranking Visualization and Analytics}
+{\emph {Apr 2017 -- May 2017}}{}{}
+    \item Developed interactive data visualization dashboard to shortlist universities based on a preferred criteria using Javascript, d3.js and other libraries. Used US map, Radar chart, Parallel coordinates, Line chart and Stack bar chart to present the data analysis and visualization.
+    {\tiny$\bullet$}
+    \href{https://github.com/sudeshnapal12/University-Ranking-Analytics-and-Visualization}{GitHub Link}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+% Flight Data Analytics - Visualization
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Flight Data Analytics}
+{\emph {Mar 2017 -- Apr 2017}}{}{}
+    \item Implemented data clustering using random \& stratified sampling, data decimation using MDS and PCA and interactive data visualization using scatter plot matrix.
+    {\tiny$\bullet$}
+    \href{https://github.com/sudeshnapal12/Flight-data-Analytics}{GitHub Link}
+\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+% Web Application Firewall - System Security Project
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+\begin{rSubsection}{Web Application Firewall} {\emph {Oct 2016 -- Dec 2016}}{}{}
+	\item Designed and implemented a Web Application Firewall as an Apache module that "sits" in-front of a web server. The WAF is designed to stop malicious requests from known attacks such as SQL Injection, XSS attacks by validation and from unknown attacks by learning the legitimate traffic.
+	{\tiny$\bullet$}
+    \href{https://github.com/sudeshnapal12/Web-Application-Firewall}{GitHub Link}
+\end{rSubsection}
+
+
+%----------------------------------------------------------------------------------------
+% Long Tail Recommendations - Big Data Analytics.
+%----------------------------------------------------------------------------------------
+
+\begin{rSubsection}{Long Tail Recommendations} {\emph {Oct 2016 -- Dec 2016}}{}{}
+    \item Built recommendation engine to boost recommendations of products in the long tail of Amazon product dataset by Julian McAuley using Apache Spark in Python. Implemented by similarity matching of products lying in head with those in tail of long-tail distribution of Amazon product data.
+    {\tiny$\bullet$}
+    \href{https://github.com/sudeshnapal12/Long-Tail-Recommendation}{GitHub Link}
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}
